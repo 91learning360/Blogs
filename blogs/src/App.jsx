@@ -7,6 +7,7 @@ import {Route, Routes} from 'react-router-dom';
 import About from './component/About/About'
 import Contact from './component/Contact/Contact'
 import Services from './component/Services/Services'
+import Products from './component/Products/Products'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path='/about'  element={<About/>} />
             <Route path='/contact'  element={<Contact/>} />
             <Route path='/services'  element={<Services/>} />
+            <Route path='/products' element={<Products />} />
 
           </Routes>
         <Footer/>
